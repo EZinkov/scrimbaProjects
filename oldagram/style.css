@@ -1,0 +1,110 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: gray;
+    max-width: 375px;
+    margin: 0 auto;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: white;
+    padding: 16px 17px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+
+.logo {
+    width: 100px;
+}
+
+.user-avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    padding: 11px 7px;
+}
+
+.user-name {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: black;
+}
+
+.user-location {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: black;
+}
+
+.post-img {
+    width: 375px;
+    height: 375px;
+}
+
+.interactive-panel {
+    margin: 0;
+    background-color: white;
+    padding: 10px 0px 10px 10px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.post-info {
+    padding-left: 11px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.likes {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.post-info p span {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.post {
+    margin-bottom: 10px;
+}

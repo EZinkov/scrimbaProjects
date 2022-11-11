@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Kanit:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>B-COUNTER</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <div class="title">HOME</div>
+            <div class="subtitle" id="subtitle-home">0</div>
+            <button class="btn" onclick="plusone()">+1</button>
+            <button class="btn" onclick="plustwo()">+2</button>
+            <button class="btn" onclick="plusthree()">+3</button>
+        </div>
+        <div class="guest">
+            <div class="title">GUEST</div>
+            <div class="subtitle" id="subtitle-guest">0</div>
+            <button class="btn" onclick="plusoneguest()">+1</button>
+            <button class="btn" onclick="plustwoguest()">+2</button>
+            <button class="btn" onclick="plusthreeguest()">+3</button>
+        </div>
+    </div>
+    <div class="container-two">
+        <button class="btn-two" onclick="reset()">RESET</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
