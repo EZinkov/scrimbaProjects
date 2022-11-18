@@ -5,19 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>PizzaUno</title>
 </head>
 <body>
     <header>
         <img src="/images/bg img.png" alt="">
         <div class="header-text">
-            <p>Jimmy’s Diner</p>
-            <p>The best burgers and pizzas in town.</p>
+            <h1>Jimmy’s Diner</h1>
+            <h3>The best burgers and pizzas in town.</h3>
         </div>
     </header>
     <main>
-        <!-- content here -->
+        <div id="full-menu">
+            <!-- content here -->
+        </div>
+        
+        <div class="order-section" id="your-order">
+            <!-- order here -->
+        </div>
+        <div class="modal" id="modal">
+            <h1>Enter your card details</h1>
+            <form class="payment-form" id="payment-form">
+                <input type="text" name="name" id="card-name" class="input-form" placeholder="Enter your name" required>
+                <input type="text" name="cardNumber" id="card-number" class="input-form" placeholder="Your card number" required>
+                <input type="text" name="cardNumber" id="cvv" class="input-form" placeholder="CVV" required>
+                <button type="submit" class="pay-btn" id="pay-btn">Pay</button>
+            </form>
+        </div>
+        <div class="thanks-message" id="thanks-message"></div>
+        
     </main>
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
 </body>
 </html>
